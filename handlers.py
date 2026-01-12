@@ -13,7 +13,7 @@ def log_user_message(message: Message):
     log_text = f"{user.id} (@{username}) | {user.first_name or '?'} → {message.text}"
     logger.info(log_text)
 
-ADMIN_ID = "584261576"
+ADMIN_ID = "YOUR_ADMIN_ID_HERE" # заменить на свой ид тг
 
 @router.message(CommandStart())
 async def start_handler(message: Message):
