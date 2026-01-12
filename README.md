@@ -8,5 +8,5 @@ Rude Telegram auto-reply bot (aiogram 3.x)
 - Full message logging → bot_messages.log
 - Logs new users to new_users.log
 - Built with Python + aiogram 3.x , Fully asynchronous, fast, reliable
-#IMPORTANT
+# IMPORTANT
 In the file configq.py you must replace the example token with your own real bot token from @BotFather.
